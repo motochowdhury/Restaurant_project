@@ -147,3 +147,11 @@ a {
     margin-left: 20px;
     margin-right: 205px;
 }
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 150px;
+}
