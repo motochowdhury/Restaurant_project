@@ -99,3 +99,7 @@ a {
 #about-info {
     margin-right: 170px;
 }
+.center {
+    margin-top: 30px;
+    text-align: center;
+}
