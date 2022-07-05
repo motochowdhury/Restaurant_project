@@ -1,0 +1,51 @@
+body p {
+    margin: 0;
+    height: 700px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+.grid-and-image {
+    display: inline-block;
+}
+.welcome-text {
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-left: 100px;
+}
+a {
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 30px;
+    font-family: 'teko';
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+}
+.home-image {
+}
+.home-img {
+    padding-top: 50px;
+    width: 400px;
+}
+.welcome-title{
+    font-family: 'Kaushan Script','Teko';
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.restaurant-name {
+    color: brown;
+}
+.welcome-sub-title {
+    font-family: 'teko';
+    font-weight: 20px;
+}
+.food-platter-image {
+    width: 400px;
+    float: right;
+    padding-right: 150px;
+    padding-top: 200px;
+
+}
