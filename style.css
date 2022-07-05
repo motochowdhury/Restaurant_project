@@ -1,6 +1,12 @@
-body p {
+body{
     margin: 0;
-    height: 700px;
+}
+body p {
+    font-family: 'teko';
+    margin: 0;
+}
+.home-section {
+    margin-bottom: 150px;
 }
 .home-grid {
     display: grid;
@@ -47,5 +53,49 @@ a {
     float: right;
     padding-right: 150px;
     padding-top: 200px;
+}
 
+
+/* About US Section */
+
+.about-us-section {
+    background-image: url("images/pngwing.com.png");
+    background-repeat: no-repeat;
+    object-position: center;
+    padding-bottom: 200px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 800px;
+    grid-column-gap: 5%;
+}
+.about-title {
+    font-family: 'teko';
+    font-size: 50px;
+    text-align: center;
+    color: grey;
+}
+.about-us-info {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    
+}
+.about-sub-title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.about-us-img {
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.restaurant-image {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+}
+#about-info {
+    margin-right: 170px;
 }
